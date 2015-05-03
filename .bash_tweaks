@@ -1,0 +1,18 @@
+encrypt ()
+
+{
+
+gpg -ac --no-options "$1"
+
+}
+
+
+
+decrypt ()
+
+{
+
+gpg --no-options "$1"
+
+}
+
