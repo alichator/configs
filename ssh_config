@@ -1,0 +1,11 @@
+Host github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+
+Host serv
+  HostName 145.223.100.62
+  User alishahc
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_serv

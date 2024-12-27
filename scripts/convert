@@ -1,0 +1,5 @@
+i=1;
+while read p; do
+  echo "[$i] $p ^$i"
+  ((i=i+1))  
+done <$1

@@ -120,3 +120,28 @@ fi
 if [ -f ~/.bashrc ]; then
     source ~/.bash_tweaks
 fi
+
+#BU mac configs
+
+#PATH="/Users/alishahc/Library/Python/3.9/bin${PATH:+:${PATH}}"
+#eval "$(/opt/homebrew/bin/brew shellenv)"
+#alias python="python3"
+#alias pip="pip3"
+#. "$HOME/.cargo/env"
+#
+#lecture () {
+#  jupyter-notebook /Users/alishahc/DS210-fa24/lectures/lecture_$1/lecture_$1.ipynb 
+#}
+#
+#slide () {
+#  jupyter nbconvert /Users/alishahc/DS210/Downloads/lecture_$1/lecture_$1.ipynb --to slides --post serve 
+#}
+#
+#zip_lec () {
+#  zip -vr /Users/alishahc/DS210-fa24/lecture_$1.zip /Users/alishahc/DS210-fa24/lectures/lecture_$1/lecture_$1.ipynb 
+#  cp /Users/alishahc/DS210-fa24/lecture_$1.zip /Users/alishahc/alichator.github.io/teaching/ds210-fa24/lecture_notes/
+#}
+#
+#export NVM_DIR="$HOME/.nvm"
+#  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+#  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
